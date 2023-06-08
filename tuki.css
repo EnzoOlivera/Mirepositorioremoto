@@ -1,0 +1,149 @@
+/* Estilos para los párrafos */
+p {
+    color: rgb(255, 166, 181);
+  }
+  
+  /* Estilos para el body */
+  body {
+    background-color: rgb(20, 42, 59);
+    color: white;
+  }
+  
+  /* Estilos para los encabezados h1 */
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  /* Estilos para los párrafos */
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para las filas */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  /* Estilos para las columnas */
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  /* Estilos para las columnas en pantallas pequeñas */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  
+  /* Estilos para el contenedor de la caja */
+  .box {
+    background-color: lightskyblue;
+    width: 500px;
+    height: 100px;
+    padding: 30px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0 auto;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para la lista de navegación */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos de la lista de navegación */
+  nav li {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* Estilos para los enlaces de navegación al pasar el mouse */
+  nav a:hover {
+    color: #1BF7DE;
+  }
+  
+  /* Estilos para el encabezado en pantallas pequeñas */
+  @media (max-width: 767px) {
+    header {
+      background-color: #333;
+    }
+  }
+  
+  /* Estilos para la lista de navegación en pantallas pequeñas */
+  @media (max-width: 767px) {
+    nav {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para la lista de navegación en pantallas grandes */
+  @media (min-width: 1200px) {
+    nav {
+      width: 1200px;
+    }
+  }
+  
+  /* Estilos para el contenedor de navegación */
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Estilos para el logo */
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos para los enlaces de la barra de navegación */
+  li > a {
+    padding: 8px 24px;
+  }
+  
+  /* Estilos para los elementos de lista */
+  li {
+    list-style-type: none;
+  }
+  
+  /*
